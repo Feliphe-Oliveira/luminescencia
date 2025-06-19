@@ -1,5 +1,5 @@
 document.getElementById('btnLum').addEventListener('click',()=>{
-    const cod = 'descobrir'
+    const cod = 'eternizar'
     if(document.getElementById('senha').value.toUpperCase() == cod.toUpperCase()){
         document.getElementById('cx_verso').classList.add('destaque')
         document.getElementById('login').classList.add('semdestaque')
